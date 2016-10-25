@@ -3,11 +3,11 @@
      font: normal 75% Arial,  Helvetica,  sans-serif;
  }
  canvas {
-     display:  block;
-     vertical-align:  bottom;
+/*     display:  block;
+*/     vertical-align:  bottom;
  }
  /* ---- particles.js container ---- */ #particles-js {
-     position: absolute;
+     position: relative;
      width:  100%;
      height:  100%;
      background-color:  #fff;
@@ -27,12 +27,38 @@ body{
 
 h1 { 
 	font: bold 300% Consolas, Monaco, monospace;
-	border-right: .1em solid black;
+	border-right: .1em solid lime;
 	width: 16.5em; 
-	width: 21ch;
+	width: 14ch;
 	margin: 2em 1em;
 	white-space: nowrap;
 	overflow: hidden;
-	-webkit-animation: typing 10s steps(21, end),
+	-webkit-animation: typing 4s steps(14, end),
 	           blink-caret .5s step-end infinite alternate;
+	    margin:0;
+    padding:0;
+
 }
+
+h2 {
+	font: bold 170% Consolas, Monaco, monospace;
+	border-right: .1em solid lime;
+	width: 16.5em; 
+	width: 38ch;
+	margin: 2em 1em;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 6s steps(38, end),
+	           blink-caret .5s step-end infinite alternate;
+	-webkit-animation-delay:5s;
+	animation-fill-mode:both;
+	    margin:0;
+    padding:0;
+}
+
+div {
+	margin-top: -200px;
+	margin-left: 50px;
+	z-index: 100;
+}
+
