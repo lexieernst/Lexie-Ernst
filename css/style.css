@@ -44,11 +44,11 @@ h2 {
 	font: bold 170% Consolas, Monaco, monospace;
 	border-right: .1em solid #BDFAD1;
 	width: 16.5em; 
-	width: 39ch;
+	width: 40ch;
 	margin: 2em 1em;
 	white-space: nowrap;
 	overflow: hidden;
-	-webkit-animation: typing 6s steps(39, end),
+	-webkit-animation: typing 6s steps(40, end),
 	           blink-caret .5s step-end infinite alternate;
 	-webkit-animation-delay:5s;
 	animation-fill-mode:both;
