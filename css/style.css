@@ -65,10 +65,13 @@ div {
 
 .info {
 	z-index: 1000;
-	position: fixed;
+/*	position: fixed;
 	margin-top: -350px;
-	margin-left: 75px;
-	padding-top: 100px;
+	padding-top: 100px;*/
+	position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 75px;
 }
 
 nav {
